@@ -1,6 +1,6 @@
 import org.antlr.v4.runtime.*;
 
-public class lex {
+public class lexer {
     public static void main(String[] args) throws Exception {
         
         String[] testStrings = {

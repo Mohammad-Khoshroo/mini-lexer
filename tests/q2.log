@@ -1,0 +1,20 @@
+// R1 : (a* b* c*)* abc
+R1: ('a'* 'b'* 'c'*)* 'abc';
+
+// R2:  ( (a+b)* (cbb)^+)^+
+R2: ([ab]* 'cbb'+)+;
+
+// R3:  (a+bc)(a + ba*c)*
+R3: ('a' | ('b' 'a'* 'c') ) ('a' | ('b' 'a'* 'c') )*;
+
+// R4:  (b+c)* a (b+c)* a (b+c)* (a (b+c)* a (b+c)*)*
+R4: [bc]* 'a' [bc]* 'a' [bc]* ('a' [bc]* 'a' [bc]*)*;
+
+
+--- Testing: 'cbbaaacbcbcc' ---
+Token: 'cbbaa'  -> Rule: R4
+Token: 'a'      -> Rule: R3
+Warning: Skipping invalid character 'c'
+Token: 'bcbc'   -> Rule: R3
+Warning: Skipping invalid character 'c'
+EOF
