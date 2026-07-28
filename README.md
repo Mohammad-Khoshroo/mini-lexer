@@ -1,11 +1,5 @@
 # How to run the LEXER
 
-first install antler4 extension and config it with :
-``` json
-"antlr4.generation.outputDir": "build"
-```
-it's make we skip the first command of bellow.
-
 ``` bash
 
 mkdir -p .antlr
