@@ -4,7 +4,7 @@ public class lexer {
     public static void main(String[] args) throws Exception {
         
         String[] testStrings = {
-            "cbbaaacbcbcc",
+            "aabcaccbc",
         };
 
         for (String testStr : testStrings) {
