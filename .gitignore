@@ -1,2 +1,4 @@
 .antlr
 full.log
+# VRDocs engine directory
+.vrdocs/
