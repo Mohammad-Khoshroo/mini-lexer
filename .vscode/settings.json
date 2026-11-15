@@ -1,0 +1,6 @@
+{
+    "antlr4.generation": {
+        "mode": "internal",
+        "alternativeJar": "utils/antlr-4.13.1-complete.jar"
+    }
+}
