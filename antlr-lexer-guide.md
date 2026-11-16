@@ -31,6 +31,7 @@ cover:
   title: پیاده‌سازی  Lexer در ANTLR4
   course: زبان‌های برنامه نویسی و طراحی کامپایلر
   student-name: محمد خوشرو
+  professor: دکتر قاسمی
   date: پاییز ۱۴۰۵
   spacing-cm:
     v-before-abstract: 0.8
